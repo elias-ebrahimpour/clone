@@ -1,5 +1,5 @@
-def non_binary_search(number: int, unlisted_array: list[int]):
-    for item in unlisted_array:
+def non_binary_search(number: int, array: list[int]):
+    for item in array:
         if number == item:
             print(item)
 

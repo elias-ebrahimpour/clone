@@ -36,6 +36,14 @@ Run sample code:
 python3 BinarySearch.py
 ```
 
+Time Complexity:
+
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(1)       |
+| Average Case | O(log n)   |
+| Worst Case   | O(n)       |
+
 ---
 
 ### Linear Search Algorithm (LSA)
@@ -57,3 +65,11 @@ Run sample code:
 ```bash
 python3 LinearSearch.py
 ```
+
+Time Complexity:
+
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(1)       |
+| Average Case | O(n)       |
+| Worst Case   | O(n)       |

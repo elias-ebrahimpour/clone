@@ -35,3 +35,25 @@ Run sample code:
 ```bash
 python3 BinarySearch.py
 ```
+
+---
+
+### Linear Search Algorithm (LSA)
+
+Here you can use the simplified LSA algorithm:
+
+```python
+
+def linear_search(number, array):
+    for item in array:
+        if number == item:
+            return True
+    return False
+
+```
+
+Run sample code:
+
+```bash
+python3 LinearSearch.py
+```

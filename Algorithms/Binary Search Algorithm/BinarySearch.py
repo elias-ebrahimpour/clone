@@ -2,7 +2,6 @@ def binary_search(number: int, array: list[int]) -> bool:
     """
     This is an example code for Binary Search in python
     """
-    
     if not array:
         return False
 
@@ -15,8 +14,6 @@ def binary_search(number: int, array: list[int]) -> bool:
         return binary_search(number, array[:middle_index])
     else:
         return binary_search(number, array[middle_index + 1:])
-
-
 
 
 
